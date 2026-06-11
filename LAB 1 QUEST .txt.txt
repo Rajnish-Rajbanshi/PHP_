@@ -1,0 +1,52 @@
+1. WAP to find sum of two numbers.  ✅
+2. WAP to find product of two numbers.✅
+3. WAP to add, subtract, multiply and divide two numbers.✅
+4. WAP to find simple interest. [si=(p*t*r)/100]✅
+5. WAP to area of rectangle. [area=l*b]✅
+6. WAP to find area of circle. [area=pi*r*r] (use pi as constant)✅
+7. WAP to find largest among two numbers.✅
+8. WAP to find smallest among two numbers.✅
+9. WAP to find largest among three numbers.✅
+10. WAP to find smallest among three numbers.✅
+11. WAP to check whether a number is odd or even.
+12. WAP to check whether a number is divisible by 7 or not.
+13. WAP to check whether a number is exactly by 5 and 10.
+14. WAP to check whether a number a number is divisible by 7 but not by 13.
+15. WAP to input CP and SP and check profit or loss. Also find profit or loss amount.
+16. WAP to find print numbers from 1 to 10.
+17. WAP to find sum of numbers from 5 to 100.
+18. WAP to print following series.
+a. 5, 10, 15, 20, ...... 50
+b. 1, 4, 9, 16, ..... upto 20 terms.
+c. 100, 98, 96, 94, ............. Upto 10 terms.
+19. WAP to print first 15 even numbers.
+20. WAP to find sum of odd numbers from 1 to 100.
+21. WAP to find factorial of a given number.
+22. WAP to print following Fibonacci series. 1, 1, 2, 3, 5, 8, ........ upto 15 terms.
+23. WAP to print following pattern.
+	a. * 		b. ***** 	c. 1 		d. 1 		e. 1
+	   **		    ****	   12		   22		   10
+	   ***		     ***	   123		   333		   101
+	   ****		      **	   1234		   4444		   1010
+	   *****	       *	   12345	   55555	   10101
+
+24. WAP to check whether a number is prime or not.
+25. WAP to print prime numbers from 1 to 100.
+26. WAP to show the use of ternary operator.
+27. Write a program to show the use of switch case statement.
+28. WAP to read a no. & find out if it is Armstrong no. or not.
+29. WAP to generate Armstrong number from 1 to 100.
+PHP LAB QUESTIONS
+
+[Use Form Components for the Input]
+
+2
+
+30. Write a program to display output like the following:
+| N 	|10 * N       |100 * N	| 1000 * N|
+| 1 	|10 	      |100 	| 1000    |
+| 2 	|20 	      |200 	| 2000    |
+| 3 	|30 	      |300    	| 3000    |
+
+You should ask the starting and ending value for N and the table should be displayed dynamically
+according to the value inputted by the user.

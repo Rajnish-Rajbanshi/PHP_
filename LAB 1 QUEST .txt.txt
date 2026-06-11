@@ -8,9 +8,9 @@
 8. WAP to find smallest among two numbers.✅
 9. WAP to find largest among three numbers.✅
 10. WAP to find smallest among three numbers.✅
-11. WAP to check whether a number is odd or even.
-12. WAP to check whether a number is divisible by 7 or not.
-13. WAP to check whether a number is exactly by 5 and 10.
+11. WAP to check whether a number is odd or even.✅
+12. WAP to check whether a number is divisible by 7 or not.✅
+13. WAP to check whether a number is divisible exactly by 5 and 10.
 14. WAP to check whether a number a number is divisible by 7 but not by 13.
 15. WAP to input CP and SP and check profit or loss. Also find profit or loss amount.
 16. WAP to find print numbers from 1 to 10.

@@ -10,15 +10,15 @@
 10. WAP to find smallest among three numbers.✅
 11. WAP to check whether a number is odd or even.✅
 12. WAP to check whether a number is divisible by 7 or not.✅
-13. WAP to check whether a number is divisible exactly by 5 and 10.
-14. WAP to check whether a number a number is divisible by 7 but not by 13.
-15. WAP to input CP and SP and check profit or loss. Also find profit or loss amount.
-16. WAP to find print numbers from 1 to 10.
-17. WAP to find sum of numbers from 5 to 100.
+13. WAP to check whether a number is divisible exactly by 5 and 10.✅
+14. WAP to check whether a number a number is divisible by 7 but not by 13.✅
+15. WAP to input CP and SP and check profit or loss. Also find profit or loss amount.✅
+16. WAP to find print numbers from 1 to 10.✅
+17. WAP to find sum of numbers from 5 to 100.✅
 18. WAP to print following series.
-a. 5, 10, 15, 20, ...... 50
-b. 1, 4, 9, 16, ..... upto 20 terms.
-c. 100, 98, 96, 94, ............. Upto 10 terms.
+a. 5, 10, 15, 20, ...... 50✅
+b. 1, 4, 9, 16, ..... upto 20 terms.✅
+c. 100, 98, 96, 94, ............. Upto 10 terms.✅
 19. WAP to print first 15 even numbers.
 20. WAP to find sum of odd numbers from 1 to 100.
 21. WAP to find factorial of a given number.

@@ -13,8 +13,11 @@
 <body>
     <form action="Display_Table.php" method="post">
 
-	<label>Enter the values of N (no. of rows)</label><br>
-	<input type="number" name="rows" required><br><br>
+	<label>Enter the values of N (Start point)</label><br>
+	<input type="number" name="start" required><br><br>
+
+    <label>Enter the values of N (End point)</label><br>
+	<input type="number" name="end" required><br><br>
 
 	<input type="submit" value="Display_Table" name="Display"><br><br>
 
@@ -23,13 +26,14 @@
 </body>
 </html>
 <?php
-	if(isset($_POST['rows']) && isset($_POST['Display'])){
-	
-	$row=$_POST['rows'];
-	
+	if(isset($_POST['start']) && isset($_POST['end']) && isset($_POST['Display'])){
+
+	$start=$_POST['start'];
+	$end=$_POST['end'];
+
 	echo "|\tN\t|10 x N\t|100 x N\t|1000 x N\t|<br>";
 
-	for($i=1;$i<=$row;$i++){
+	for($i=$start;$i<=$end;$i++){
 		echo "|\t$i&nbsp\t|".($i*10)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp\t|".($i*100)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp\t|".($i*1000)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp \t|<br>";
 	
 	}

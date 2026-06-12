@@ -50,3 +50,5 @@ PHP LAB QUESTIONS
 
 You should ask the starting and ending value for N and the table should be displayed dynamically
 according to the value inputted by the user.
+31.WAP to calculate compound interest :
+hint:CI=P[(1+R/100)^T -1]

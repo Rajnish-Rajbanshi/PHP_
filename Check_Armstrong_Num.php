@@ -19,9 +19,12 @@
 
         $num=$_POST['number'];
         $check_val=$num;
+        $rem=0;
+        $a=0;
+        //logic : sum of cubes = original number #[abc=a^3+b^3+c^3]
         while($num!=0){
             $rem=$num%10;
-            $a=$rem*10+$rem;
+            $a=$a+pow($rem,3);
             $num=$num/10;
             }
 

@@ -17,8 +17,7 @@
 <?php
     if(isset($_POST['radius'])){
         $rad=$_POST['radius'];
-        $PI=3.14;
-        $Circ_Area=$PI*$rad*$rad;
+        $Circ_Area=PI()*pow($rad,2);
         echo"<h3>Area of Circle is $Circ_Area </h3>";
     }
 ?>

@@ -15,6 +15,6 @@
 <?php
     if(isset($_POST['print'])){
         for($i=1; $i<=15; $i++){
-            echo"<h3>".($i*2)."</h3>";
+            echo ($i*2)." ";
         }
     }

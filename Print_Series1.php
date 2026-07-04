@@ -15,7 +15,7 @@
 <?php
     if(isset($_POST['print'])){
         for($i=5; $i<=50; $i+=5){
-            echo"<h3>$i</h3>";
+            echo $i . " ";
         }
     }
 ?>

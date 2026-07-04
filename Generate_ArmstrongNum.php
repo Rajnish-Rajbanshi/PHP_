@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="" method="post">
-        <label for="numbers"><h3>Armstrong numbers :</h3></label><br><br>
-        <input type="submit" name="generate" value="Generate Armstrong Numbers"><br><br>
+        <label for="numbers"><h3>Armstrong numbers :</h3></label><br>
+        <input type="submit" name="generate" value="Generate Armstrong Numbers"><br>
     </form>
 </body>
 </html>
@@ -30,7 +30,7 @@
                 }
 
                 if($check_val==$a){
-                    echo "<h3>$check_val </h3>";
+                    echo $check_val ." ";
                 }
             }
 

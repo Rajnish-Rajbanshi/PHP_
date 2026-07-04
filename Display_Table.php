@@ -3,40 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Write a program to display output like the following:
-        N   10*N  100*N 1000*N
-        1   10    100   1000
-        2   20    200   2000
-        3   30    300   3000
-    </title>
+    <title>Dynamic Multiplication Table</title>
 </head>
 <body>
-    <form action="Display_Table.php" method="post">
 
-	<label>Enter the values of N (Start point)</label><br>
-	<input type="number" name="start" required><br><br>
-
-    <label>Enter the values of N (End point)</label><br>
-	<input type="number" name="end" required><br><br>
-
-	<input type="submit" value="Display_Table" name="Display"><br><br>
-
-</form>
+    <h2>Generate Table</h2>
     
+    <form method="POST" action="Display_Table.php">
+        <div>
+            <label for="start">Starting value for N:</label>
+            <input type="number" name="start" id="start" required>
+        </div>
+        <br>
+        <div>
+            <label for="end">Ending value for N:</label>
+            <input type="number" name="end" id="end" required>
+        </div>
+        <br>
+        <button type="submit" name="submit">Generate</button>
+    </form>
+
+    <br>
+
+    <?php
+    // Check if the form has been submitted
+    if (isset($_POST['submit'])) {
+        // Retrieve and sanitize inputs
+        $start = (int)$_POST['start'];
+        $end = (int)$_POST['end'];
+
+        // Validate that the start value is less than or equal to the end value
+        if ($start > $end) {
+            echo "<p>Error: The starting value must be less than or equal to the ending value.</p>";
+        } else {
+            // Generate the table dynamically using plain HTML attributes for basic structure
+            echo "<table border='1'>";
+            echo "<tr>
+                    <th>N</th>
+                    <th>10 * N</th>
+                    <th>100 * N</th>
+                    <th>1000 * N</th>
+                  </tr>";
+
+            // Loop from the starting value to the ending value
+            for ($n = $start; $n <= $end; $n++) {
+                echo "<tr>";
+                echo "<td>{$n}</td>";
+                echo "<td>" . ($n * 10) . "</td>";
+                echo "<td>" . ($n * 100) . "</td>";
+                echo "<td>" . ($n * 1000) . "</td>";
+                echo "</tr>";
+            }
+			echo "</table>";
+        }
+    }
+    ?>
+
+
 </body>
 </html>
-<?php
-	if(isset($_POST['start']) && isset($_POST['end']) && isset($_POST['Display'])){
-
-	$start=$_POST['start'];
-	$end=$_POST['end'];
-
-	echo "|\tN\t|10 x N\t|100 x N\t|1000 x N\t|<br>";
-
-	for($i=$start;$i<=$end;$i++){
-		echo "|\t$i&nbsp\t|".($i*10)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp\t|".($i*100)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp\t|".($i*1000)."&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp \t|<br>";
-	
-	}
-
-}
-?>

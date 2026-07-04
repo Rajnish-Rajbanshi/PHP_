@@ -16,13 +16,16 @@
     if(isset($_POST['print'])){
         $n1=1;
         $n2=1;
-        echo"<h3>$n1</h3>";
-        echo"<h3>$n2</h3>";
+        $t=0;
         for($i=3; $i<=15; $i++){
             $n3=$n1+$n2;
-            echo"<h3>$n3</h3>";
+            echo $n1."&nbsp;&nbsp;&nbsp; ";
             $n1=$n2;
             $n2=$n3;
+            $t++;
+            if($t==15){
+                break;
+            }
         }
     }
 ?>

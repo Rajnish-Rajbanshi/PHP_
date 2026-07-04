@@ -30,6 +30,6 @@
     $r=$_POST['rate'];
     $SI=($p*$t*$r)/100;
     
-    echo" <h3>Simple Interest is \$$SI </h3>";
+    echo" <h3>Simple Interest is  \$$SI </h3>";
     }
 ?>

@@ -16,7 +16,7 @@
 <?php
     if(isset($_POST['print'])){
         for ($i = 1; $i <= 10; $i++) {
-            echo "<h3>$i</h3>";
-        }
+        echo $i . " "; 
+        }  
     }
 ?>

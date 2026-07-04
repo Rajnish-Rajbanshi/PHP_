@@ -24,7 +24,7 @@
                     $freq++;
             }
             if($freq==2)
-                echo"$i<br>";
+                echo $i." ";
         }
     }
 
